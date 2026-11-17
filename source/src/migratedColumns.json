@@ -1,0 +1,92 @@
+{
+  "seeds": [
+    "/list-3acb1864f37841278492828abb264da7.html",
+    "/list-075b726e6a45414ca0c45f3bea3cb0c3.html",
+    "/list-01cf3c5b61754611afe25db96c18e19c.html",
+    "/list-905f929d1909434bb94c2e88f48c83bf.html",
+    "/list-ee75bf1af02c4e37bb9e516138f15ae8.html",
+    "/list-d9c647f792d54777860c6795aced1dea.html",
+    "/list-d7360f55075b4ab78c69ea383d8ca988.html",
+    "/list-f38e30fffe7d465d9aa4f8a8bf890201.html",
+    "/list-80871392affa4f489813e8eeb608dd9f.html",
+    "/list-1df896b0f23e42bf910ec0d01e14e9ed.html"
+  ],
+  "aliases": {
+    "/list-61710a1a3f9e4f9d99f090f304fcbcd9.html": "/?page=about",
+    "/list-e5d0c88d529a4577b4a19e9ea37342f9.html": "/?page=about",
+    "/list-1da3482284c341a79ac38cdbd9256141.html": "/?page=about&section=organization",
+    "/list-6d6f3326129c4ae59759411ba40acb41.html": "/?page=about&section=charter",
+    "/list-b6675756ebb2491e8684223a6d67abf7.html": "/?page=contact",
+    "/list-68a76d59f7b1406abb6804ea791a5742.html": "/?page=integrated",
+    "/list-7daa1415db184cdab9da308e250cc83a.html": "/?page=news",
+    "/list-88f24ff9407045fb940bf906da4b610d.html": "/?page=notices",
+    "/list-a514fd06345449f7a4621261c53aa652.html": "/?page=notices&section=association",
+    "/list-8a8e7bf35173455eb0555f0ec3bc96d2.html": "/?page=news&section=industry",
+    "/list-296419fb744b43aa90a19bfc9892d218.html": "/?page=news&section=policyLaw",
+    "/list-8d99c44d052a4bf78e09571989ba765a.html": "/?page=news&section=policyLocal",
+    "/list-4223e9341d6e4e4b93fb306d39fe1ffd.html": "/?page=news&section=essays",
+    "/list-fae988cea13d4d03afe42e75dc8c673e.html": "/?page=application-catalog",
+    "/list-c3119e4fac98490180c5b50dea906af9.html": "/?page=application-catalog",
+    "/list-90c6c37730bb4a33b51bdaf423e64ae4.html": "/?page=member",
+    "/list-2c2b5068bb144c59bd01dff434f64f45.html": "/?page=experts",
+    "/list-576a1b8f7d994abbb82a839a14b002bb.html": "/?page=party",
+    "/list-d1758a5eca0a41daa92ddb3c6682d5d8.html": "/?page=party&section=rules",
+    "/list-d295645c8e4f49deac81ffb0e907b3f7.html": "/?page=party&section=study",
+    "/list-7243b744c05b42448f3fc4134e0ae3e2.html": "/?page=party&section=news",
+    "/list-ba99d6c97a6442e8b0c8e4cc1403e83a.html": "/?page=downloads",
+    "/list-075b726e6a45414ca0c45f3bea3cb0c3.html": "/?page=award-catalog&section=science",
+    "/list-01cf3c5b61754611afe25db96c18e19c.html": "/?page=award-catalog&section=science",
+    "/list-905f929d1909434bb94c2e88f48c83bf.html": "/?page=award-catalog&section=evaluation",
+    "/list-ee75bf1af02c4e37bb9e516138f15ae8.html": "/?page=award-catalog&section=excellence",
+    "/list-80871392affa4f489813e8eeb608dd9f.html": "/?page=downloads&keyword=团体标准"
+  },
+  "styles": [
+    "/assets/migrated/c4c667c86b9626f6.css",
+    "/assets/migrated/ae96e9983a44f180.css",
+    "/assets/migrated/28c45cabe5b39fcf.css"
+  ],
+  "pages": {
+    "/list-01cf3c5b61754611afe25db96c18e19c.html": {
+      "title": "科技奖-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></span><span style=\"display:contents\"><span>›</span><strong>科技奖</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></h2><nav><a href=\"/list-01cf3c5b61754611afe25db96c18e19c.html\" class=\"is-active\">科技奖</a><a href=\"/list-905f929d1909434bb94c2e88f48c83bf.html\">科技评价</a><a href=\"/list-ee75bf1af02c4e37bb9e516138f15ae8.html\">评优</a></nav></aside><section class=\"news-page-content\"><header><h1>科技奖</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-075b726e6a45414ca0c45f3bea3cb0c3.html": {
+      "title": "科技奖-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></span><span style=\"display:contents\"><span>›</span><strong>科技奖</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></h2><nav><a href=\"/list-01cf3c5b61754611afe25db96c18e19c.html\" class=\"is-active\">科技奖</a><a href=\"/list-905f929d1909434bb94c2e88f48c83bf.html\">科技评价</a><a href=\"/list-ee75bf1af02c4e37bb9e516138f15ae8.html\">评优</a></nav></aside><section class=\"news-page-content\"><header><h1>科技奖</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-1df896b0f23e42bf910ec0d01e14e9ed.html": {
+      "title": "团标展示-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></span><span style=\"display:contents\"><span>›</span><strong>团标展示</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></h2><nav><a href=\"/list-f38e30fffe7d465d9aa4f8a8bf890201.html\">团标动态</a><a href=\"/list-1df896b0f23e42bf910ec0d01e14e9ed.html\" class=\"is-active\">团标展示</a></nav></aside><section class=\"news-page-content\"><header><h1>团标展示</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-3acb1864f37841278492828abb264da7.html": {
+      "title": "分支机构-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/?page=about\">关于协会</a></span><span style=\"display:contents\"><span>›</span><strong>分支机构</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/?page=about\">关于协会</a></h2><nav><a href=\"/?page=about\">协会简介</a><a href=\"/?page=about&amp;section=organization\">组织架构</a><a href=\"/list-3acb1864f37841278492828abb264da7.html\" class=\"is-active\">分支机构</a><a href=\"/?page=about&amp;section=charter\">协会章程</a><a href=\"/?page=contact\">联系我们</a></nav></aside><section class=\"news-page-content\"><header><h1>分支机构</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-80871392affa4f489813e8eeb608dd9f.html": {
+      "title": "文件下载-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></span><span style=\"display:contents\"><span>›</span><strong>文件下载</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></h2><nav><a href=\"/list-f38e30fffe7d465d9aa4f8a8bf890201.html\">团标动态</a><a href=\"/list-1df896b0f23e42bf910ec0d01e14e9ed.html\">团标展示</a></nav></aside><section class=\"news-page-content\"><header><h1>文件下载</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div></main>"
+    },
+    "/list-905f929d1909434bb94c2e88f48c83bf.html": {
+      "title": "科技评价-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></span><span style=\"display:contents\"><span>›</span><strong>科技评价</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></h2><nav><a href=\"/list-01cf3c5b61754611afe25db96c18e19c.html\">科技奖</a><a href=\"/list-905f929d1909434bb94c2e88f48c83bf.html\" class=\"is-active\">科技评价</a><a href=\"/list-ee75bf1af02c4e37bb9e516138f15ae8.html\">评优</a></nav></aside><section class=\"news-page-content\"><header><h1>科技评价</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div></main>"
+    },
+    "/list-d7360f55075b4ab78c69ea383d8ca988.html": {
+      "title": "团标动态-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></span><span style=\"display:contents\"><span>›</span><strong>团标动态</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></h2><nav><a href=\"/list-f38e30fffe7d465d9aa4f8a8bf890201.html\" class=\"is-active\">团标动态</a><a href=\"/list-1df896b0f23e42bf910ec0d01e14e9ed.html\">团标展示</a></nav></aside><section class=\"news-page-content\"><header><h1>团标动态</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div></main>"
+    },
+    "/list-d9c647f792d54777860c6795aced1dea.html": {
+      "title": "会员动态-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/?page=application-catalog\">会员服务</a></span><span style=\"display:contents\"><span>›</span><strong>会员动态</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/?page=application-catalog\">会员服务</a></h2><nav><a href=\"/?page=application-catalog\">会员申请</a><a href=\"/?page=member\">会员风采</a><a href=\"/list-d9c647f792d54777860c6795aced1dea.html\" class=\"is-active\">会员动态</a></nav></aside><section class=\"news-page-content\"><header><h1>会员动态</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-ee75bf1af02c4e37bb9e516138f15ae8.html": {
+      "title": "评优-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></span><span style=\"display:contents\"><span>›</span><strong>评优</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-075b726e6a45414ca0c45f3bea3cb0c3.html\">评奖评优</a></h2><nav><a href=\"/list-01cf3c5b61754611afe25db96c18e19c.html\">科技奖</a><a href=\"/list-905f929d1909434bb94c2e88f48c83bf.html\">科技评价</a><a href=\"/list-ee75bf1af02c4e37bb9e516138f15ae8.html\" class=\"is-active\">评优</a></nav></aside><section class=\"news-page-content\"><header><h1>评优</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    },
+    "/list-f38e30fffe7d465d9aa4f8a8bf890201.html": {
+      "title": "团标动态-广东省项目管理协会",
+      "html": "<main class=\"sections-main\"><div class=\"news-page-main\"><nav class=\"news-breadcrumb\" aria-label=\"面包屑\"><a href=\"/\">首页</a><span style=\"display:contents\"><span>›</span><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></span><span style=\"display:contents\"><span>›</span><strong>团标动态</strong></span></nav><div class=\"news-page-layout\"><aside class=\"news-sidebar\"><h2><a href=\"/list-d7360f55075b4ab78c69ea383d8ca988.html\">团体标准</a></h2><nav><a href=\"/list-f38e30fffe7d465d9aa4f8a8bf890201.html\" class=\"is-active\">团标动态</a><a href=\"/list-1df896b0f23e42bf910ec0d01e14e9ed.html\">团标展示</a></nav></aside><section class=\"news-page-content\"><header><h1>团标动态</h1></header><div class=\"under-construction\"><img src=\"/assets/migrated/9b5c6c33fcdd44ea.svg\" alt=\"\"><p><b>该功能正在建设中</b>敬请期待，我们会尽快上线</p></div></section></div></div><template id=\"B:1\"></template></main>"
+    }
+  },
+  "failures": {},
+  "failedAssets": []
+}

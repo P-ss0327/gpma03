@@ -1,0 +1,38 @@
+/* Shared GPMA component styles, extracted from the existing site. */
+.dated-list-row{--dated-row-line:#eee;--dated-row-hover:var(--site-hover);--dated-row-accent:var(--accent);min-height:111px;display:grid;grid-template-columns:minmax(0,1fr) 86px;align-items:center;gap:20px;padding:18px 0 14px 30px;box-sizing:border-box;border-bottom:1px solid var(--dated-row-line);text-decoration:none;transition:background .22s ease,transform .22s ease,border-color .22s ease}
+.dated-list-row>div{min-width:0}
+.dated-list-row h2{margin:0;overflow:hidden;color:#333;font-size:18px;line-height:24px;font-weight:500;text-overflow:ellipsis;white-space:nowrap}
+.dated-list-row p{margin:12px 0 0;overflow:hidden;color:#999;font-size:15px;line-height:24px;text-overflow:ellipsis;white-space:nowrap}
+.dated-list-row time{min-height:76px;display:flex;flex-direction:column;align-items:center;justify-content:center;border-left:1px solid var(--dated-row-line);color:#999;font-size:14px}
+.dated-list-row time span{margin-top:5px}
+.dated-list-row time b{color:#333;font-size:44px;line-height:1;font-weight:500}
+.dated-list-date-empty{color:#999;font-size:13px;text-align:center}
+.dated-list-row:is(:hover,:focus-visible,:active){background:var(--dated-row-hover);border-bottom-color:#b8ddf7}
+.dated-list-row:is(:hover,:focus-visible,:active) :is(h2,p,time,time b,.dated-list-date-empty){color:var(--dated-row-accent)}
+.dated-list-row:is(:hover,:focus-visible,:active) time{border-left-color:#b8ddf7}
+.dated-list-row:hover{transform:translateX(3px)}
+.dated-list-row:focus-visible{outline:2px solid var(--dated-row-accent);outline-offset:-2px}
+@media(prefers-reduced-motion:reduce){.dated-list-row{transition:none}.dated-list-row:hover{transform:none}}
+.news-sidebar { overflow: hidden; background: #fff; }
+.news-sidebar h2 { height: 50px; display: flex; align-items: center; justify-content: center; margin: 0; background: var(--brand); color: #fff; font-size: 20px; font-weight: 700; }
+.news-sidebar nav { display: grid; }
+.news-sidebar button { position: relative; min-height: 60px; border: 0; background: #fff; color: #485d70; font: inherit; font-size: 17px; cursor: pointer; transition: color .2s ease, background .2s ease; }
+.news-sidebar button:hover { color: var(--brand); background: #f7fbfe; }
+.news-sidebar button:focus-visible { color: var(--brand); background: var(--site-hover); outline: 2px solid #8bc9f2; outline-offset: -2px; }
+.news-sidebar button.is-active { color: var(--accent); background: #f7fbfe; font-weight: 700; }
+.news-sidebar button.is-active::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 6px; background: var(--accent); }
+.news-pagination { min-height: 96px; }
+.numbered-pagination { height: auto; }
+.pagination-ellipsis { min-width: 24px; color: #91a2b0; text-align: center; }
+.site-pagination { display: flex; align-items: center; justify-content: center; gap: 10px; color: #91a2b0; font-size: 14px; }
+.site-pagination button { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 1px solid #cbd8e4; border-radius: 50%; background: #fff; color: #5f7180; font: inherit; font-size: 14px; line-height: 1; cursor: pointer; transition: color .2s ease, background .2s ease, border-color .2s ease, box-shadow .2s ease; }
+.site-pagination button:first-child, .site-pagination button:last-child { border-color: var(--brand); color: var(--brand); font-size: 24px; }
+.site-pagination button:hover:not(:disabled), .site-pagination button:focus-visible:not(:disabled), .site-pagination button.is-active { border-color: var(--brand); background: var(--brand); color: #fff; box-shadow: 0 6px 16px rgba(38,106,167,.16); }
+.site-pagination button:disabled { border-color: #d8e1e8; background: #fff; color: #b5c0c9; cursor: default; box-shadow: none; }
+.news-sidebar nav a{position:relative;min-height:60px;display:flex;align-items:center;justify-content:center;padding:0 24px;color:#485d70;background:#fff;font-size:17px;text-decoration:none}
+.news-sidebar nav a:hover,.news-sidebar nav a:focus-visible{color:var(--brand);background:#f7fbfe}
+.news-sidebar nav a.is-active{color:var(--accent);background:#f7fbfe;font-weight:700}
+.news-sidebar nav a.is-active::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;background:var(--accent)}
+/* Match the public site's inner-page pagination geometry. */
+.news-pagination{padding-top:26px}
+.site-pagination button:focus-visible{outline:2px solid var(--brand);outline-offset:3px}

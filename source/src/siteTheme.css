@@ -1,0 +1,121 @@
+/* Public design tokens and shared component metrics. Loaded after route styles. */
+:root {
+  --brand:#266aa7; --accent:#28a7f2;
+  --site-ink:#17324a; --site-muted:#657b93; --site-line:#dbe7f1;
+  --site-surface:#fff; --site-page:#f4f9fd; --site-hover:#f1f8fe;
+  --site-radius:3px; --site-control-height:42px;
+  --site-content-width:1260px; --site-page-inset:28px;
+  --site-font:"Microsoft YaHei","PingFang SC",Arial,sans-serif;
+  --site-danger:#b32a20; --site-danger-bg:#fff5f4;
+  --site-shadow:0 8px 24px rgba(38,106,167,.12);
+  --site-arrow-size:40px; --site-chip-height:28px;
+  --site-motion:200ms; --site-focus:2px solid var(--accent);
+}
+body {font-family:var(--site-font)}
+/* Keep legacy snapshots on the same breadcrumb geometry as React pages. */
+:is(.site-breadcrumb,.news-breadcrumb,.about-breadcrumb,.member-page-breadcrumb,.notice-breadcrumb,.integrated-page-breadcrumb,.expert-breadcrumb) {
+  box-sizing:border-box; width:min(var(--site-content-width),calc(100% - 2 * var(--site-page-inset)));
+  height:auto; min-height:30px; display:flex; align-items:center; flex-wrap:wrap;
+  gap:8px; margin:0 auto 15px; padding:0; background:transparent;
+  color:var(--site-muted); font-size:14px; line-height:20px; font-weight:400;
+}
+:is(.site-breadcrumb,.news-breadcrumb) :is(a,span){color:var(--site-muted);font-size:inherit;font-weight:400;text-decoration:none}
+:is(.site-breadcrumb,.news-breadcrumb) strong{color:var(--brand);font-size:inherit;font-weight:700}
+:is(.site-breadcrumb,.news-breadcrumb) a:hover{color:var(--accent)}
+:is(.site-breadcrumb,.news-breadcrumb) a:focus-visible{outline:var(--site-focus);outline-offset:3px}
+:is(.news-page-main,.about-page-main,.expert-page-main,.integrated-page-main,.notice-page-main){background:var(--site-page)}
+.news-page-layout,.about-layout{width:min(var(--site-content-width),calc(100% - 2 * var(--site-page-inset)));margin-inline:auto}
+.news-page-content{background:var(--site-surface)}
+.news-page-content>header>h1{font-size:18px;line-height:26px;font-weight:700;color:var(--brand)}
+.news-sidebar h2{background:var(--brand);color:#fff;font-size:20px}
+.news-sidebar nav :is(a,button){font-family:var(--site-font);font-size:17px;color:#485d70;transition:background var(--site-motion),color var(--site-motion)}
+.news-sidebar nav :is(a,button):is(:hover,:focus-visible,.is-active){color:var(--accent);background:var(--site-hover)}
+:is(.member-primary,.member-secondary,.member-text-button,.comment-section .btn){min-height:var(--site-control-height);box-sizing:border-box;border-radius:var(--site-radius);padding:9px 20px;font-family:var(--site-font);font-size:14px;line-height:22px;transition:background var(--site-motion),border-color var(--site-motion),color var(--site-motion)}
+:is(.member-primary,.comment-section .btn-primary){background:var(--brand);border-color:var(--brand);color:#fff}
+:is(.member-primary,.comment-section .btn-primary):hover{background:var(--accent);border-color:var(--accent);color:#fff;filter:none}
+.member-secondary{background:#fff;color:var(--brand);border-color:var(--brand)}
+.member-secondary:hover{background:var(--site-hover);color:var(--brand);border-color:var(--accent)}
+:is(.member-primary,.member-secondary,.member-text-button):focus-visible{outline:var(--site-focus);outline-offset:3px}
+:is(.member-primary,.member-secondary):disabled{opacity:.5;cursor:not-allowed}
+:is(.member-auth-form,.application-content) :is(input:not([type=file]):not([type=checkbox]):not([type=radio]),select,textarea){border-color:var(--site-line);border-radius:var(--site-radius);font-family:var(--site-font);font-size:14px;color:var(--site-ink)}
+:is(.member-auth-form,.application-content) :is(input:not([type=file]):not([type=checkbox]):not([type=radio]),select,textarea):focus{border-color:var(--brand);background:var(--site-hover);outline:none;box-shadow:inset 0 1px 4px #266aa71f}
+input[type=checkbox],input[type=radio]{accent-color:var(--brand)}
+.member-page input[type=file]::file-selector-button{border-radius:var(--site-radius);border-color:var(--brand);background:var(--brand);color:#fff;min-height:var(--site-control-height);font-family:var(--site-font)}
+.site-pagination button{font-family:var(--site-font);border-radius:50%}
+:is(.site-announcement,.award-login-dialog,.dl-preview){font-family:var(--site-font);border-radius:var(--site-radius)}
+@media(prefers-reduced-motion:reduce){:root{--site-motion:0ms}}
+/* Expert directory already owns the common shell inset. */
+.expert-directory.shell>.site-breadcrumb,.expert-directory.shell>.expert-panel{width:100%;margin-inline:0}
+/* Component families: one role, one treatment, across all public columns. */
+:is(.sections-root,.site-canvas){font-family:var(--site-font)}
+:is(.member-primary,.member-secondary,.expert-search-button,.dl-search-submit,.comment-section .btn){height:auto;min-height:var(--site-control-height);border-radius:var(--site-radius);font-size:14px;font-weight:500;line-height:22px}
+/* Large declaration action is the explicit primary-action size variant. */
+.member-primary.award-guide-declare{min-height:48px;min-width:168px;padding:12px 28px;font-size:16px;font-weight:600}
+:is(.expert-search-button,.dl-search-submit,.search button){background:var(--brand);border-color:var(--brand);color:#fff;transition:background var(--site-motion),border-color var(--site-motion)}
+:is(.expert-search-button,.dl-search-submit,.search button):hover{background:var(--accent);border-color:var(--accent)}
+:is(.sections-root,.site-canvas) :is(button,a,input,select,textarea):focus-visible{outline:var(--site-focus);outline-offset:3px}
+/* Text fields use a single inner focus treatment; icon and checkbox focus stays visible. */
+:is(.member-auth-form,.application-content,.expert-filter) :is(input:not([type=file]):not([type=checkbox]):not([type=radio]),select,textarea):focus-visible{outline:none}
+.dl-content .dl-search-box input:focus-visible{outline:none;box-shadow:none}
+:is(.member-auth-form,.application-content,.expert-filter) :is(input:not([type=file]):not([type=checkbox]):not([type=radio]),select){min-height:44px;box-sizing:border-box}
+:is(.member-auth-form,.application-content) textarea{min-height:120px;line-height:1.8}
+:is(.member-page,.application-content) input[type=file]::file-selector-button{padding:9px 20px;margin-right:12px;min-height:var(--site-control-height);border:1px solid var(--brand);border-radius:var(--site-radius);background:var(--brand);color:#fff;font:inherit;cursor:pointer}
+:is(.member-page,.application-content) input[type=file]::file-selector-button:hover{background:var(--accent);border-color:var(--accent)}
+:is(.expert-card,.notice-card-grid>a,.gallery-grid>a,.info-card,.intro-portal,.integrated-stage-card){border-radius:var(--site-radius);border-color:var(--site-line);box-shadow:none;transition:border-color var(--site-motion),background var(--site-motion),box-shadow var(--site-motion),transform var(--site-motion)}
+:is(.expert-card,.notice-card-grid>a,.gallery-grid>a,.info-card,.intro-portal,.integrated-stage-card):is(:hover,:focus-visible){border-color:var(--accent);background:#fff;box-shadow:var(--site-shadow);transform:translateY(-2px)}
+:is(.expert-card,.notice-card-grid>a,.gallery-grid>a) :is(h2,strong){color:var(--site-ink)}
+:is(.expert-tags span,.dl-file-copy .dl-category){border-radius:var(--site-radius);color:var(--brand);background:var(--site-hover);border-color:var(--site-line)}
+:is(.dl-popular,.dl-years) button{min-height:32px;border-radius:var(--site-radius);font-size:14px;line-height:22px;transition:background var(--site-motion),color var(--site-motion)}
+:is(.dl-popular,.dl-years) button[aria-pressed=true]{background:var(--brand);color:#fff;box-shadow:none}
+:is(.dl-popular,.dl-years) button:hover:not([aria-pressed=true]){background:var(--site-hover);color:var(--brand)}
+:is(.picture-news-arrows,.gallery-controls,.notice-feature-controls) button{width:var(--site-arrow-size);height:var(--site-arrow-size);border-radius:50%;border:1px solid var(--brand);background:#fff;color:var(--brand)}
+.news-detail-nav button{min-height:var(--site-control-height);color:var(--site-muted);font-size:14px}
+.news-detail-nav button span{width:var(--site-arrow-size);height:var(--site-arrow-size);border-color:var(--brand);border-radius:50%}
+:is(.picture-news-arrows,.gallery-controls,.notice-feature-controls) button:is(:hover,:focus-visible):not(:disabled){background:var(--brand);color:#fff;border-color:var(--brand)}
+:is(.local-search-result,.dated-list-row){border-bottom-color:var(--site-line);transition:background var(--site-motion),color var(--site-motion),transform var(--site-motion)}
+.local-search-result:is(:hover,:focus-visible){background:var(--site-hover)}
+:is(.member-application-tabs,.application-tabs) a{font-size:14px;color:var(--site-muted)}
+:is(.member-application-tabs,.application-tabs) a:is(:hover,:focus-visible,.is-active){color:var(--brand)}
+:is(.party-article>h2,.news-detail h2,.notice-detail h2){font-size:22px;line-height:1.7;color:var(--site-ink)}
+:is(.party-article-meta,.news-detail-meta,.notice-detail-meta){font-size:13px;color:var(--site-muted);line-height:1.8}
+:is(.application-error,.member-form-error){color:var(--site-danger);font-size:13px;line-height:1.7}
+.application-error-summary{background:var(--site-danger-bg);color:var(--site-danger)}
+:is(.application-empty,.dl-empty,.expert-empty){color:var(--site-muted)}
+:is(.site-announcement,.award-login-dialog,.dl-preview){--notice-brand:var(--brand);--notice-accent:var(--accent);--notice-text:var(--site-ink);--notice-muted:var(--site-muted);--notice-line:var(--site-line);box-shadow:var(--site-shadow)}
+:is(.site-announcement-header,.award-login-dialog-header)>button:focus-visible{outline-offset:-3px}
+@media(prefers-reduced-motion:reduce){:is(.expert-card,.notice-card-grid>a,.gallery-grid>a,.info-card,.intro-portal,.integrated-stage-card):is(:hover,:focus-visible){transform:none}}
+:is(.site-map,.footer-map) :is(h3,h4){font-size:18px;color:#fff;margin:0 0 16px}
+:is(.site-map>div,.footer-map-links){display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 18px}
+:is(.site-map,.footer-map) a{font-size:13px;line-height:1.6;color:rgba(255,255,255,.9);text-decoration:none}
+:is(.site-map,.footer-map) a:hover{color:#fff;text-decoration:underline;text-underline-offset:4px}
+/* Shared single-border focus for search and data entry fields. */
+:is(.sections-root,.site-canvas) :is(input:not([type=checkbox]):not([type=radio]):not([type=file]),select,textarea):is(:focus,:focus-visible){outline:none;outline-offset:0;box-shadow:none;background:#fff;border-color:var(--brand)}
+:is(.sections-root,.site-canvas) .search:focus-within{border-color:var(--brand);box-shadow:none}
+:is(.sections-root,.site-canvas) .search input:is(:focus,:focus-visible){border-color:transparent;outline:none;box-shadow:none}
+.expert-card{position:relative}
+.expert-card-link{display:inline-flex;align-items:center;gap:7px;color:var(--brand);font-size:12px;width:fit-content}
+.expert-card-link img{width:13px;height:13px}
+
+.expert-card:focus-within{outline:none}
+.expert-card-link:focus:not(:focus-visible){outline:none}
+.mobile-search-toggle{display:none}
+@keyframes noticeTickerMobile{from{transform:translateY(0)}to{transform:translateY(-50%)}}
+@media(prefers-reduced-motion:reduce){.primary-grid-first .notice-list{animation:none!important}}
+/* The search action joins the input with a straight inner edge. */
+.dl-root .dl-content .dl-search-form>.dl-search-submit{border-top-left-radius:0;border-bottom-left-radius:0}
+/* Authentication actions share the same prominent label typography. */
+.member-page .member-login-submit,
+.member-page .member-register-prompt>.member-secondary{font-size:17px;font-weight:600}
+/* Shared header account action: default brand foreground on every route. */
+.masthead .member-login-link:not(:hover):not(:focus-visible),
+.masthead .member-login-link:visited:not(:hover):not(:focus-visible){color:var(--brand)}
+.masthead .member-login-link>span,
+.masthead .member-login-link>svg{color:inherit}
+
+.member-page-body a.member-signin-entry{display:inline-flex;align-items:center;min-height:44px;color:var(--brand);font-weight:600;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px;transition:color var(--site-motion)}
+.member-page-body a.member-signin-entry:is(:hover,:active){color:var(--accent)}
+.member-page-body a.member-signin-entry:focus-visible{outline:var(--site-focus);outline-offset:3px;border-radius:var(--site-radius)}
+
+/* A directory card is a reading surface; only its detail link navigates. */
+.expert-grid>.expert-card:is(:hover,:focus-visible){border-color:var(--site-line);background:var(--site-surface);box-shadow:none;transform:none}
+.expert-card-link:is(:hover,:focus-visible){color:var(--brand);text-decoration:underline;text-underline-offset:4px}
