@@ -1,0 +1,13 @@
+{
+  "id": "gpma-important-notice-preview",
+  "revision": "2",
+  "enabled": true,
+  "label": "重要公告",
+  "title": "个人用户在线申请指引",
+  "body": "注册并登录后，可维护个人资料，办理专家入库或科技奖申请，并在用户中心查看我的申请。",
+  "imageUrl": "/assets/member-conference.png",
+  "imageAlt": "会员交流活动配图（展示示例）",
+  "linkText": "前往用户中心",
+  "linkUrl": "/?page=member-center",
+  "frequency": "session"
+}

@@ -1,0 +1,1 @@
+function r(e,a){return[{id:"apply",label:"在线申请",href:"/gpma03/preview-20261117/?page=application-catalog"},{id:"showcase",label:"会员风采",href:"/gpma03/preview-20261117/?page=member"},{id:"news",label:"会员动态",href:"/gpma03/preview-20261117/list-d9c647f792d54777860c6795aced1dea.html"}]}export{r as m};
